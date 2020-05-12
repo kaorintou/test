@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt" class>
+  <head>
+    <title>LETS COOK.com：Receitas fáceis e rápidas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300" rel="stylesheet" />
+    <link rel="shortcut icon" href="/Users/kaorintou/Mackenzie/1/3. FUND WEB/Lets Cook/img/logo.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+  	<header class="header">
+  	  <div class="navbar">
+  	  	<div class="logo">
+  	  	  <a href="index.html"><img src="/Users/kaorintou/Mackenzie/1/3. FUND WEB/Lets Cook/img/logo.png" alt="LETSCOOK.COM" width="240" height="45"></a>
+  	  	</div>
+
+	    <div class="gnav">
+		  <ul>
+			<li><a href="index.html">PÁGINA INICIAL</a></li>
+			<li><a href="#">SOBRE</a></li>
+			<li><a href="contact.html">CONTATO</a></li>
+			<li><a href="#">ANUNCIE</a></li>
+		  </ul>
+	    </div>
+	  </div>
+	</header>
+
+	<div class="content">
+	  <main class="main">
+		<form>
+		  <h2>Contato</h2>
+		  <p>Utilize o formulário abaixo para nos enviar uma mensagem.<br>
+		  Caso deseje enviar fotos, envie-as anexadas em um e-mail para contato@letscook.com</p>
+
+		  <h4>Entre em contato</h4>
+		  <label>Nome</label><br>
+		  <input type="text" name="nome" placeholder="Ex）Maria" value=""><br>
+		  <label>Sobrenome</label><br>
+		  <input type="text" name="sobrenome" placeholder="Ex）da Silva" value=""><br>
+		  <label>Email</label><br>
+		  <input type="text" name="email" placeholder="Ex）guest@example.com" value=""><br>
+		  <label>Telefone</label><br>
+		  <input type="text" name="tel" placeholder="Ex）(DDD)00000-0000" value=""><br>
+		  <label>Assunto</label><br>
+		      
+		  <select name="item">
+			<option value="">Selecione..</option>
+			<option value="Duvida">Dúvida</option>
+			<option value="Parceria">Parceria</option>
+			<option value="Outros">Outros</option>
+		  </select>
+		  <br>
+		  <label>Mensagem</label><br>
+	      <textarea name="content" rows="5" placeholder="Escreva aqui.."></textarea><br>
+		  <button type="submit">Enviar</button>
+		</form>
+	  </main>
+
+
+	  <aside class="sidebar">
+      	<h3>BUSQUE RECEITAS</h3>
+      	<p>Digite um termo abaixo e ache uma receita.</p>
+      	<dd class="input-keyword"><input name="data[Recipe][keyword]" type="text" class="top-srch-keyword cmn-text custom-field"></dd>
+      	<p class="top-srch-btn"><input name="submit" type="submit" value="Pesquisar" class="top-srch-submit cmn-submit custom-field"></p>
+
+      	<img src="/Users/kaorintou/Mackenzie/1/3. FUND WEB/Lets Cook/img/sidebar-1.png">
+		<img src="/Users/kaorintou/Mackenzie/1/3. FUND WEB/Lets Cook/img/sidebar-2.png">
+
+      	<h3>CATEGORIAS DE RECEITAS</h3>
+      	<dd class="select-genre"><select name="data[Recipe]" class="cmn-select option-select custom-field" id="genre">
+          <option value="">---</option>
+          <option value="A">AVES</option>
+          <option value="B">BEBIDAS</option>
+          <option value="C">BOLOS</option>
+          <option value="D">CARNES</option>
+          <option value="E">DOCES</option>
+          <option value="F">LANCHES</option>
+          <option value="G">MASSAS</option>
+          <option value="H">PEIXES</option>
+        </select></dd>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <p>LETSCOOK.com  - Copyright © 2020</p>
+    </footer>
+  </body>
+</html>
